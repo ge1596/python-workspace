@@ -107,5 +107,5 @@ num1 = 10
 num2 = 20
 sum_ = num1 + num2
 
-print('   --- 출력 결과 ---')
-print(f' num1(10) + num2(20) = {sum_}')
+print('    --- 출력 결과 ---')
+print(f' num1({num1}) + num2({num2}) = {sum_}')
