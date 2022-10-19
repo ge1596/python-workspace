@@ -75,10 +75,10 @@ kor = int(input('국어 점수 : '))
 eng = int(input('영어 점수 : '))
 mat = int (input('수학 점수 : '))
 sum_ = kor +eng + mat
-avg = sum_ / 3
+avg = round(sum_ / 3,2)
 
-print('=================학생 정보======================')
+print('{:=^50}'.format('학생 정보'))
 print('이름\t국어\t영어\t수학\t합계\t평균')
-print('-'*47)
-print('{}\t{}\t{}\t{}\t{}\t{}'.format(name,kor,eng,mat,sum_,round(avg,2)))
+print('-'*55)
+print('{}\t{}\t{}\t{}\t{}\t{}'.format(name,kor,eng,mat,sum_,avg))
 
